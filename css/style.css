@@ -75,7 +75,7 @@ body {
 
 .hero-container {
     width: 100vw;
-    height: 100vh;
+    height: auto;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -112,6 +112,8 @@ body {
 .hero-image img {
     width: 90%;
     height: auto;
+    padding-top: 0.1rem;
+    overflow-y: hidden;
 }
 
 
@@ -374,6 +376,9 @@ body {
     .danger-button a {
         visibility: hidden;
     }
+    .hero-title h1 {
+        font-size: 2.5rem;
+    }
 }
 
 @media screen and (min-width: 577px) and (max-width: 768px) {
@@ -381,8 +386,11 @@ body {
         visibility: visible;
     }
     .hero-title h1 {
-        font-size: 1.9rem;
+        font-size: 1.5rem;
         font-weight: 600;
+    }
+    .hero-title p {
+        font-size: 0.8rem;
     }
     .blog-info {
         display: flex;
