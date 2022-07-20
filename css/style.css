@@ -451,6 +451,7 @@ body {
     .hero-title h1 {
         font-size: 1.5rem;
         font-weight: 400;
+        padding-top: 1rem;
     }
     .hero-para {
         width: 180px;
