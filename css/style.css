@@ -391,6 +391,12 @@ body {
     .danger-button a {
         visibility: hidden;
     }
+    .side-bar {
+        padding-top: -5rem;
+    }
+    .hero-container {
+        height: 100vh;
+    }
     .hero-title h1 {
         font-size: 2.5rem;
     }
@@ -418,6 +424,13 @@ body {
 @media screen and (min-width: 577px) and (max-width: 768px) {
     .danger-button a {
         visibility: visible;
+    }
+    .hero-area:hover .hero-container::before {
+        background-size: 6rem;
+    }
+    .hero-container {
+        width: 100%;
+        height: 100vh;
     }
     .hero-title h1 {
         font-size: 1.5rem;
@@ -504,7 +517,7 @@ body {
         height: auto;
     }
     .hero-area:hover .hero-container::before {
-        background-size: 100px;
+        background-size: 6rem;
     }
     .blog-info {
         display: flex;
